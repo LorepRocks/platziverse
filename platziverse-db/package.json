@@ -1,0 +1,20 @@
+{
+  "name": "platziverse-db",
+  "version": "1.0.0",
+  "description": "A simple IoT Platform - DB Module",
+  "main": "index.js",
+  "scripts": {
+    "lint:fix": "standard --fix"
+  },
+  "author": "Lorena Rojas <lorenajrc@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "airbnb": "^0.0.2",
+    "standard": "^16.0.3"
+  },
+  "dependencies": {
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2"
+  }
+}
