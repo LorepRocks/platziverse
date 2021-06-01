@@ -4,6 +4,8 @@ const test = require('ava');
 const proxyquire = require('proxyquire');
 const sinon = require('sinon');
 
+const agentFixtures = require('./fixtures/agent')
+
 let db = null
 
 let sandbox = null
